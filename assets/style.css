@@ -24,9 +24,7 @@
     font-family: 'Tai Heritage Pro', serif;
 }
 /* Basics styling for home page*/
-.bg{
-    background-color: red !important;
-}
+
 /* video{
     display: inline;
 } */
@@ -51,11 +49,13 @@
     width: 2em;
     height: 2em;
 }
+.card_cover{
+    object-fit: cover;
+}
 nav{
     width: 100%;
     position: absolute;
     top: 0px;
-
     padding: 10px 5%;
     display: flex;
     align-items: center;
@@ -66,10 +66,11 @@ nav ul li{
     margin-left: 50px;
     list-style: none;
     align-items: center;
+    padding: 10px;
 }
 nav ul li a{
     text-decoration: none;
-    color: whitesmoke !important;
+    color: rgb(255, 255, 255) !important;
 }
 .home_content{
     text-align: center;
